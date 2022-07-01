@@ -1,15 +1,40 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-style: 'Space Grotesk', 'Oleo Script';
+    background-color: #fafafa;
 }
 
-.nav {
-    background-color: #FAFAFA;
-    padding: 20px 20px;
+li, a, button{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
 }
-.a {
-    display: block;
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px  10%;
 }
-.btn {
+nav h1{
+    font-size: medium;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 200;
+}
+nav li{
+    font-family: 'Space Grotesk', cursive;
+}
+
+li{
+    display: inline-flex;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    
+}
+
+.btn{
     border-radius: 12px; 
     color: white; 
     padding: 14px 28px; 

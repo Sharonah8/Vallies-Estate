@@ -40,6 +40,37 @@ li{
     padding: 14px 28px; 
     cursor: pointer; 
     background-color: #2549D3;
-  }
+}
+
+.home{
+    display: flex;
+    margin-top: 20vh;
+}
+
+.home-tag{
+    margin: 50px 40px;
+    width: 40%;
+
+}
+.home-tag h5{
+    font-size: 40px;
+    color: blue;
+}
+
+.home-tag p{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.home-btn button{
+    margin-top: 30px;
+}
+
+.home-cover img{
+    height: 50vh;
+    width: 70vh;
+    margin-left: 20vh;
+}
   
 

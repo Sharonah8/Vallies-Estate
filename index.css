@@ -25,12 +25,14 @@ nav h1{
 }
 nav li{
     font-family: 'Space Grotesk', cursive;
+    font-size: 35px;
 }
 
 li{
     display: inline-flex;
     margin-left: 15px;
     justify-content: space-evenly;
+    
     
 }
 
@@ -45,6 +47,8 @@ li{
 .home{
     display: flex;
     margin-top: 20vh;
+    margin-left:10vh;
+    margin-right:10vh;
 }
 
 .home-tag{
@@ -53,12 +57,12 @@ li{
 
 }
 .home-tag h5{
-    font-size: 40px;
+    font-size: 60px;
     color: blue;
 }
 
 .home-tag p{
-    font-size: 20px;
+    font-size: 35px;
     margin-top: 20px;
 
 }
@@ -69,8 +73,55 @@ li{
 
 .home-cover img{
     height: 50vh;
-    width: 70vh;
-    margin-left: 20vh;
+    width: 75vh;
+    margin-left: 10vh;
+}
+.search{
+    background-color: white;
+    display: flex;
 }
   
 
+.row{
+    margin: 30px 100px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    background-color: #f1f1f1;
+  }
+  .card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+.choose{
+    display: flex;
+    margin-top: 20vh;
+    margin-left:10vh;
+    margin-right:10vh;
+}
+.choose-why{
+    margin: 50px 40px;
+    width: 40%;
+}
+.choose-why h1{
+    color: #2549D3;
+}
+.choose-why p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.choose-image img{
+    height: 50vh;
+    width: 75vh;
+    margin-right: 10vh;
+}

@@ -84,6 +84,9 @@ li{
     justify-content: space-around;
     padding: 10px 40px;
 }
+.search > option{
+    border: none;
+}
 .search-btn{
     margin: 10px 10px;
     background-color: #2549D3;
@@ -172,6 +175,8 @@ li{
     padding-bottom: 10px;
     font-style: 'Oleo Script';
 }
+
+
 .featured p{
     font-size: 22px;
     font-style: 'Space Grotesk';

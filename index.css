@@ -94,9 +94,11 @@ li{
     padding: 0 70px;
     background-color: #f1f1f1;
   }
-.card {
+.column .card {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
     padding: 10px;
+    height: 100%;
+    width: 100%;;
     margin: 50px;
     text-align: center;
     background-color: #f1f1f1;
@@ -104,6 +106,9 @@ li{
 .card-container{
     background-color: #f1f1f1;
 }
+/* .card-container p{
+    margin-top: 30px;
+} */
 
 
 .choose{

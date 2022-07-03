@@ -83,25 +83,27 @@ li{
   
 
 .row{
-    margin: 30px 100px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column {
-    float: left;
+
+.row .column {
     width: 25%;
-    padding: 0 10px;
+    padding: 0 70px;
     background-color: #f1f1f1;
   }
-  .card {
+.card {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1); /* this adds the "card" effect */
-    padding: 16px;
+    padding: 10px;
+    margin: 50px;
     text-align: center;
     background-color: #f1f1f1;
   }
+.card-container{
+    background-color: #f1f1f1;
+}
+
 
 .choose{
     display: flex;
@@ -125,3 +127,96 @@ li{
     width: 75vh;
     margin-right: 10vh;
 }
+
+
+
+.flex-container1{
+    display: flex;
+    align-items: center;
+}
+/* .featured.column{
+    display: flex;
+    justify-content: space-between;
+}
+.featured-card{
+    display: flex;
+    justify-content: space-between;
+} */
+.featured h2{
+    color: #0f298b;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-style: 'Oleo Script';
+}
+.featured p{
+    font-size: 22px;
+    font-style: 'Space Grotesk';
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.customers{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.client{
+    padding: 50px 100px;
+}
+.customers-btn{
+    text-align: right;
+    margin-right: 200px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1700px;
+    margin: auto;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+
+.footer{
+    background-color: #0f298b;
+    padding: 70px 50px 70px 200px;
+}
+.container{
+    background-color: #0f298b;
+}
+.footer-row{
+    background-color: #0f298b;
+}
+.footer-col{
+    background-color: #0f298b;
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col ul{
+    background-color: #0f298b;
+}
+.footer-col li h4{
+    background-color: #0f298b;
+    color: #f1f1f1;
+}
+.footer-col li{
+    background-color: #0f298b;
+    color: #f1f1f1;
+    padding: 5px;
+}
+.footer-col p{
+    background-color: #0f298b;
+    color: #f1f1f1;
+    padding: 3px;
+    font-size: 18px;
+}
+

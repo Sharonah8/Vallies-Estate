@@ -190,6 +190,17 @@ li{
 }
 .client{
     padding: 50px 100px;
+    background-color: white;
+    margin-left: 15vh;
+}
+.client h2{
+    background-color: white;
+}
+.client h4{
+    background-color: white;
+}
+.client p{
+    background-color: white;
 }
 .customers-btn{
     text-align: right;

@@ -44,6 +44,7 @@ li{
     background-color: #2549D3;
 }
 
+
 .home{
     display: flex;
     margin-top: 20vh;
@@ -132,16 +133,19 @@ li{
 
 .flex-container1{
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
+   
 }
-/* .featured.column{
-    display: flex;
-    justify-content: space-between;
+.flex-container1 > div{
+    width: 25%;
+    margin:auto
 }
-.featured-card{
-    display: flex;
-    justify-content: space-between;
-} */
+.column img{
+    width: 100%;
+    height: auto;
+}
 .featured h2{
     color: #0f298b;
     text-align: center;

@@ -79,8 +79,20 @@ li{
     margin-left: 10vh;
 }
 .search{
-    background-color: white;
+    /* background-color: white; */
     display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+}
+.search-btn{
+    margin: 10px 10px;
+    background-color: #2549D3;
+
+}
+#cars{
+    color: #0f298b;
+    font-size: large;
+    font-weight: bold;
 }
   
 
@@ -183,7 +195,9 @@ li{
     display: flex;
     justify-content: center;
 }
-
+/* .flex-container h2,h4,p{
+    background-color: white;
+} */
 .container{
     max-width: 1700px;
     margin: auto;
